@@ -9,46 +9,45 @@
 
 $color1: #8ef9f1;
 $color2: #4bead2;
-$color3: f0f0f0;
+$color3: #f0f0f0;
 $color4: #eaa7a1;
 $color5: #171717;
 
 body{
     background-image: linear-gradient(to bottom right,#eaa7a1,#4bead2);
     height: 10000px;
-    color:  #f0f0f0;
+    color:  #171717;
     margin: 0px;
 }
 /*navbar*/
 .navbar{
     margin: 0px;
-    background-color:#4bead2;
-    color: #f0f0f0; 
+    padding: 20px 0px;
+    background-color:#f0f0f0;
+    color: #171717; 
     opacity: 0.8; 
 }
-.navbar-brand:hover{
-    color: #f0f0f0;
-}
+
 .nav-link:hover{
-    color: #f0f0f0;
+    color: #17171763;
     text-decoration: none;
 }
 
 .nav-link{
-    color: #f0f0f0;
+    color: #171717;
     padding: 0 10px
 }
 
 nav a{
     text-decoration: none;
-    color:#f0f0f0;
+    color:#171717;
     display: inline-block;
     text-align: center; 
     margin: 0 45px;
     height: 100%;
 }
 nav a:hover {
-    color:#f0f0f0;
+    columns: #171717;
 }
 .right{
     float: right;
