@@ -81,13 +81,15 @@ body,html{
     margin-bottom: auto;
 }
 .card{
-    height: 500px;
+    
     border-radius: 15px !important;
-    background-color: $blackbg !important;
+    
 }
 
 .chatcard{
-    margin-top: 30px;
+    height: 500px;
+    background-color: $blackbg !important;
+    margin-top: 40px;
 }
 
 .msg_card_body{
@@ -193,4 +195,27 @@ position: relative;
 .contacts_card{
 margin-bottom: 15px !important;
 }
+}
+
+.home-card{
+    height: 210px;
+    background-color: $datbeige;
+    .btn{
+        background-color: $datpink;
+    }
+}
+
+.home-heading{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.help{
+    position: absolute;
+  right: 10px;
+  border-radius: 15px !important;
+background-color: $datpink !important;
+    border:0 !important;
+    color: $datbeige !important;
+    cursor: pointer;
 }

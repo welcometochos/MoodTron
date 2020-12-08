@@ -14,10 +14,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="nav-space collapse navbar-collapse " id="navbarNavAltMarkup">
-                <a class="nav-link navbar-item" href="/Blog">Blog</a>                               
-                <a class="nav-link navbar-item" href="/Journal">Journal</a>
-                <a class="nav-link navbar-item" href="/profile">Profile</a>
-                <a class="nav-link navbar-item" href="/Aboutus">About us</a>       
+                <a class="nav-link navbar-item" href="/chat">MoodTron Chat</a>
+                <a class="nav-link navbar-item" href="/Journal">Mood Diary</a>
+                <a class="nav-link navbar-item" href="/MyChats">My Chats</a>
+                <a class="nav-link navbar-item" href="/support">Further Support</a>
+                <a class="nav-link navbar-item" href="/Blog">Blog</a> 
+                <a class="nav-link navbar-item" href="/Events">Events</a>       
             </div>
         </nav> 
         

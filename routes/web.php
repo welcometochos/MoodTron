@@ -17,6 +17,14 @@ Route::get('/chat', function () {
     return view('chat');
 });
 
+Route::get('/', function(){
+    return view('home');
+});
+
+Route::get('/MyChats', function(){
+    return view('peerChat');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
